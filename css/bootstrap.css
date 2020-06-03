@@ -10271,4 +10271,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
   text-decoration: none;
   color: #FF930B;
 }
+@media (max-width:500px) and (min-width:100px) {
+  .py-min{
+    padding-top: 5.5rem !important;
+  }
+}
 /*# sourceMappingURL=bootstrap.css.map */
