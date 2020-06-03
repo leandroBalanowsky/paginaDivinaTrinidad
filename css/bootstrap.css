@@ -10265,15 +10265,98 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 .enlace{
   text-decoration: none;
-  color: #FFA739;
+  color: #FF920A;
 }
 .enlace:hover{
   text-decoration: none;
-  color: #FF930B;
+  color: #ff6600;
 }
 @media (max-width:500px) and (min-width:100px) {
   .py-min{
     padding-top: 5.5rem !important;
   }
+}
+.footer {
+  padding: 50px 0 20px 0;
+  background: rgba(255,175,75,1);
+
+  background: rgba(255,146,10,1);
+  background: -moz-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,146,10,1) 84%, rgba(255,175,75,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,146,10,1)), color-stop(84%, rgba(255,146,10,1)), color-stop(100%, rgba(255,175,75,1)));
+  background: -webkit-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,146,10,1) 84%, rgba(255,175,75,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,146,10,1) 84%, rgba(255,175,75,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,146,10,1) 84%, rgba(255,175,75,1) 100%);
+  background: linear-gradient(to right, rgba(255,146,10,1) 0%, rgba(255,146,10,1) 84%, rgba(255,175,75,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff920a', endColorstr='#ffaf4b', GradientType=1 );
+  
+
+  color: #fff;
+}
+.footer .title{
+text-align: left;
+color:#fff;
+font-size:25px;
+}
+.footer .social-icon{
+padding:0px;
+margin:0px;
+}
+.footer .social-icon a{
+display:inline-block;
+color:#fff;
+font-size:25px;
+padding:5px;
+}
+.footer .acount-icon a{
+display:block;
+color:#fff;
+font-size:18px;
+padding:5px;
+text-decoration:none;
+}
+.footer .acount-icon .fa{
+margin-right:25px;
+}
+.footer .category a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 1px;
+  border-radius:4px;
+  margin-top: 6px;
+  background-color: #FF920A;
+  border: solid 1px #fff;
+}
+.footer .category a:hover{
+  background-color: #ff6600;
+}
+.footer .payment{
+margin:0px;
+padding:0px;
+list-style-type:none
+}
+.footer .payment li{
+list-style-type:none
+}
+.footer .payment li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  float: left;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+.btn.btn-default {
+  background-color: #FF920A;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  padding: 13px 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.btn.btn-default:hover {
+  background-color: #ff6600;
 }
 /*# sourceMappingURL=bootstrap.css.map */
