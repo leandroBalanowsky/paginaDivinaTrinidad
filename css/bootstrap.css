@@ -10359,4 +10359,22 @@ list-style-type:none
 .btn.btn-default:hover {
   background-color: #ff6600;
 }
+.caption-loco{
+  
+background: rgba(0,0,0,0.77);
+background: -moz-linear-gradient(top, rgba(0,0,0,0.77) 0%, rgba(0,0,0,0.8) 12%, rgba(0,0,0,0.83) 25%, rgba(0,0,0,0.86) 39%, rgba(0,0,0,0.89) 50%, rgba(0,0,0,0.89) 51%, rgba(0,0,0,0.91) 60%, rgba(0,0,0,0.94) 76%, rgba(0,0,0,0.98) 91%, rgba(0,0,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.77)), color-stop(12%, rgba(0,0,0,0.8)), color-stop(25%, rgba(0,0,0,0.83)), color-stop(39%, rgba(0,0,0,0.86)), color-stop(50%, rgba(0,0,0,0.89)), color-stop(51%, rgba(0,0,0,0.89)), color-stop(60%, rgba(0,0,0,0.91)), color-stop(76%, rgba(0,0,0,0.94)), color-stop(91%, rgba(0,0,0,0.98)), color-stop(100%, rgba(0,0,0,1)));
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.77) 0%, rgba(0,0,0,0.8) 12%, rgba(0,0,0,0.83) 25%, rgba(0,0,0,0.86) 39%, rgba(0,0,0,0.89) 50%, rgba(0,0,0,0.89) 51%, rgba(0,0,0,0.91) 60%, rgba(0,0,0,0.94) 76%, rgba(0,0,0,0.98) 91%, rgba(0,0,0,1) 100%);
+background: -o-linear-gradient(top, rgba(0,0,0,0.77) 0%, rgba(0,0,0,0.8) 12%, rgba(0,0,0,0.83) 25%, rgba(0,0,0,0.86) 39%, rgba(0,0,0,0.89) 50%, rgba(0,0,0,0.89) 51%, rgba(0,0,0,0.91) 60%, rgba(0,0,0,0.94) 76%, rgba(0,0,0,0.98) 91%, rgba(0,0,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,0,0,0.77) 0%, rgba(0,0,0,0.8) 12%, rgba(0,0,0,0.83) 25%, rgba(0,0,0,0.86) 39%, rgba(0,0,0,0.89) 50%, rgba(0,0,0,0.89) 51%, rgba(0,0,0,0.91) 60%, rgba(0,0,0,0.94) 76%, rgba(0,0,0,0.98) 91%, rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0.77) 0%, rgba(0,0,0,0.8) 12%, rgba(0,0,0,0.83) 25%, rgba(0,0,0,0.86) 39%, rgba(0,0,0,0.89) 50%, rgba(0,0,0,0.89) 51%, rgba(0,0,0,0.91) 60%, rgba(0,0,0,0.94) 76%, rgba(0,0,0,0.98) 91%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+
+}
+.img-opaco {
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  filter: brightness(30%);
+  
+}
 /*# sourceMappingURL=bootstrap.css.map */
