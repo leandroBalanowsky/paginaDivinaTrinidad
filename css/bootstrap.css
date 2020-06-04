@@ -10377,4 +10377,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   filter: brightness(30%);
   
 }
+.tituloPost{
+  text-decoration: none;
+  color: #FF920A;
+}
 /*# sourceMappingURL=bootstrap.css.map */
